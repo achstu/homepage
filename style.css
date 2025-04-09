@@ -1,44 +1,13 @@
 body {
-  font-family: "Roboto Mono", monospace;
+  font-family: monospace;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vh;
 }
 
-h1,
-h2 {
-  text-align: center;
-}
-
-hr {
-  border-color: black;
-}
-
-.d {
-  color: green;
-}
-
-.d ul {
-  color: black;
-}
-
-section>* {
-  margin-left: 1em;
-}
-
-section h3 {
-  margin-left: 0 !important;
-}
-
-div.i {
-  margin-left: 20pt;
-}
-
-.hw {
-  color: blue;
-}
-
-.ex {
-  font-weight: bold;
-}
-
-hr {
-  font-weight: normal !important;
+td {
+  padding: 2vh;
 }
